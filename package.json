@@ -1,0 +1,25 @@
+{
+  "name": "@wucai/wucai-code",
+  "version": "0.0.17",
+  "description": "Wucai Code - AI命令行工具",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cystanford/wucai-code.git"
+  },
+  "license": "Apache-2.0",
+  "keywords": [
+    "ai",
+    "cli",
+    "wucai",
+    "wucai code",
+    "code-assistant",
+    "command-line"
+  ],
+  "homepage": "https://github.com/cystanford/wucai-code#readme",
+  "bugs": {
+    "url": "https://github.com/cystanford/wucai-code/issues"
+  }
+}
