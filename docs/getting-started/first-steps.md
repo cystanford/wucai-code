@@ -13,6 +13,9 @@
 ```bash
 wucai
 ```
+初次启动时界面如下：
+   ![wucai-code](../assets/images/wucai_screen_normal.png)
+用户即可使用五彩代码进行编程。
 
 ## 界面介绍
 
