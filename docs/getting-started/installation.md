@@ -17,6 +17,12 @@
 
 ## 安装步骤
 
+🌟**注意:** 在macOS或某些版本的Linux环境中(如Ubuntu Linux)安装五彩代码时，需要使用sudo命令执行安装脚本：
+
+```bash
+sudo npm install -g @wucai/wucai-code@latest
+```
+
 ### 方法一：使用 npm（推荐）
 
 1. **检查 Node.js 版本**
@@ -60,9 +66,21 @@ pnpm add -g @wucai/wucai-code@latest
 wucai
 ```
 
+初次启动时界面如下：
+
+![wucai-code](../assets/images/wucai_firstlaunch.png)
+
+
 ### 2. 选择身份验证方式
 - **Qwen OAuth**（推荐，免费）
+
+   详细请参考[Qwen OAuth认证](authentication.md#方法二qwen-oauth)
+
+
 - **API 密钥**（需要申请）
+
+   详细请参考[API密钥认证](authentication.md#方法一api密钥)
+
 
 ### 3. 配置完成
 按照提示完成身份验证设置。
@@ -82,7 +100,7 @@ wucai
 ### 问题：权限错误
 **解决方案：**
 1. **Windows**: 以管理员身份运行命令提示符
-2. **macOS/Linux**: 使用 sudo（不推荐）或配置 npm 全局目录权限
+2. **macOS/Linux**: 使用 sudo 执行或配置 npm 全局目录权限（不推荐）
 
 ### 问题：网络连接问题
 **解决方案：**
@@ -99,6 +117,7 @@ wucai
 ```bash
 npm uninstall -g @wucai/wucai-code
 ```
+如不能正确卸载需要使用 sudo 执行或配置 npm 全局目录权限（不推荐）
 
 ## 更新
 

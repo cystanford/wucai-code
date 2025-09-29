@@ -18,6 +18,7 @@
    ```bash
    wucai
    ```
+
    初次启动时界面如下：
    ![wucai-code](../assets/images/wucai_firstlaunch.png)
 
@@ -49,6 +50,7 @@
    wucai
    ```
    初次启动时界面如下：
+   
    ![wucai-code](../assets/images/wucai_firstlaunch.png)
 
 2. **选择Qwen OAuth认证**

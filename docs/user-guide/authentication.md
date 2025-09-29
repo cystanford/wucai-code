@@ -48,6 +48,17 @@
 }
 ```
 
+### OAuth配置
+```json
+{
+  "access_token": "your_access_token",
+  "refresh_token": "your_refresh_token",
+  "token_type": "Bearer",
+  "resource_url": "portal.qwen.ai",
+  "expiry_date": 1759142635952
+}
+```
+
 ### 界面配置
 ```json
 {
