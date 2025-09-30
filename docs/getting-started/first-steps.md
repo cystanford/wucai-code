@@ -7,23 +7,32 @@
 ### 1. 打开终端
 - **Windows**: 打开命令提示符或PowerShell
 - **macOS**: 打开终端应用
-- **Linux**: 打开终端
+- **Linux**: 打开终端应用
 
 ### 2. 启动程序
 ```bash
 wucai
 ```
+初次启动时界面如下：
+
+   ![wucai-code](../assets/images/wucai_screen_normal.png)
+
+用户即可使用五彩代码进行编程。
+
+**我们不建议用户在Home目录下执行五彩代码**。当五彩代码运行在用户Home目录下时，会出现以下警告信息：
+
+```
+You are running Wucai Code in your home directory. It is recommended to run in a project-specific directory.
+```
+
+![wucai-code-home](../assets/images/wucai_screen_home.png)
 
 ## 界面介绍
 
 启动后，您将看到五彩代码的交互界面：
+![wucai-code](../assets/images/wucai_screen_normal.png)
 
-```
-五彩代码 v0.0.17
-> 
-```
-
-- `五彩代码 v0.0.17` - 显示当前版本
+- `Wucai Code! v0.0.47` - 显示当前版本
 - `>` - 输入提示符，等待您输入命令或问题
 
 ## 基本操作
@@ -100,12 +109,12 @@ function calculateSum(a, b) {
 首次使用时，您需要设置身份验证：
 
 ### 选择认证方式
-1. **Qwen OAuth**（推荐）
+1. **Qwen OAuth** (详细请参考[Qwen OAuth认证](authentication.md#方法二qwen-oauth))
    - 免费使用
    - 每天2000次请求
    - 自动管理凭证
 
-2. **API密钥**
+2. **API密钥** (详细请参考[API密钥认证](authentication.md#方法一api密钥))
    - 需要申请API密钥
    - 按使用量计费
 
