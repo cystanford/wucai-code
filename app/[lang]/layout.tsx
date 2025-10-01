@@ -23,7 +23,7 @@ const LanguageLayout: FC<LayoutProps> = async ({ children, params }) => {
       logo={
         <>
           <span
-            className='ms-2 select-none font-extrabold flex items-center'
+            className='select-none font-extrabold flex flex-row items-center gap-0'
             title='Wucai Code: AI命令行工具'
           >
             <img
@@ -31,13 +31,13 @@ const LanguageLayout: FC<LayoutProps> = async ({ children, params }) => {
               alt='Wucai Code'
               width={32}
               height={32}
-              className='inline-block align-middle mr-2 '
-              style={{ verticalAlign: "middle" }}
+              className='shrink-0'
+              style={{ marginRight: '8px' }}
             />
-            <span className='text-[1.3rem]  font-normal align-middle mr-1 max-md:hidden'>
+            <span className='text-[1.3rem] font-normal whitespace-nowrap max-md:hidden' style={{ marginRight: '4px' }}>
               Wucai
             </span>
-            <span className='text-[1.3rem] font-normal align-middle max-md:hidden'>
+            <span className='text-[1.3rem] font-normal whitespace-nowrap max-md:hidden'>
               Code
             </span>
           </span>
