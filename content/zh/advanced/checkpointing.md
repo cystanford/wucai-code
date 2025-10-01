@@ -106,6 +106,5 @@
 
 ## 下一步
 
-- [自定义配置](/zh/advanced/customization) - 学习高级自定义选项
-- [MCP服务器](/zh/advanced/mcp-servers) - 了解MCP服务器集成
+- [Subagents](/zh/advanced/subagents) - 了解专业化AI助手
 - [故障排除](/zh/reference/troubleshooting) - 解决常见问题

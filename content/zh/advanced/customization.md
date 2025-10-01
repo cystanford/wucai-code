@@ -473,4 +473,4 @@ class DatabaseIntegration {
 
 - [MCP服务器](/zh/advanced/mcp-servers) - 了解MCP服务器集成
 - [检查点功能](/zh/advanced/checkpointing) - 学习会话状态管理
-- [故障排除](/zh/reference/troubleshooting) - 解决常见问题
+- [Subagents](/zh/advanced/subagents) - 了解专业化AI助手
