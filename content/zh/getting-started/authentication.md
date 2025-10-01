@@ -30,7 +30,7 @@ Wucai Code支持多种身份验证方式，您可以根据需要选择最适合�
    ![wucai-code-normal](../assets/images/wucai_screen_normal.png) 
    **注意:** 以上方式设置的API Key是临时变量，重新启动Wucai Code时仍然会被要求重新设置API Key。
    
-   建议用户参考阅读 [设置阿里云百炼](/zh/user-guide/authentication.md#阿里云百炼) ，正确设置永久环境变量：
+   建议设置永久环境变量：
    ```bash
    DASHSCOPE_API_KEY={your_api_key}
    ```

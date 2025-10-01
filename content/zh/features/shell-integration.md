@@ -273,5 +273,4 @@ for file in *.txt; do mv "$file" "processed_$file"; done
 
 - [学习IDE集成功能](./ide-integration.md)
 - [查看实际示例](/zh/examples/automation)
-- [探索沙箱功能](./sandbox.md)
 - [学习高级自定义](/zh/advanced/customization)

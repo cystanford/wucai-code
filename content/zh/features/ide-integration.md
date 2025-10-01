@@ -293,7 +293,6 @@ Ctrl+Shift+P -> "Wucai Code: Run"
 
 掌握了IDE集成功能后，您可以：
 
-- [学习沙箱功能](./sandbox.md)
 - [查看实际示例](/zh/examples/programming-tasks)
 - [探索高级自定义](/zh/advanced/customization)
 - [学习故障排除](/zh/troubleshooting/common-issues)

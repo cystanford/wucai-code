@@ -34,7 +34,6 @@ title: 欢迎使用 Wucai Code
 - [文件操作](/zh/features/file-operations) - 文件系统操作
 - [Shell集成](/zh/features/shell-integration) - 命令行集成功能
 - [IDE集成](/zh/features/ide-integration) - 与IDE的集成
-- [沙箱功能](/zh/features/sandbox) - 安全执行环境
 
 ### 💡 使用示例
 - [编程任务](/zh/examples/programming-tasks) - 常见编程任务示例

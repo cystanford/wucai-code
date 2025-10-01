@@ -4,5 +4,4 @@ export default {
   "file-operations": "文件操作",
   "shell-integration": "Shell集成",
   "ide-integration": "IDE集成",
-  sandbox: "沙箱功能",
 };
