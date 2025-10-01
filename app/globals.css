@@ -1,14 +1,37 @@
 @import "nextra-theme-docs/style.css";
 
-/* Wucai Code 主题颜色配置 */
+/* Wucai Code 侧边栏选中项样式 */
 :root {
-  --nextra-primary-hue: 210deg;
-  --nextra-primary-saturation: 100%;
-  --nextra-primary-lightness: 50%;
+  /* 侧边栏选中项的背景色 - 使用明显的浅蓝色 */
+  --sidebar-active-bg: #e6f4ff;
+  /* 侧边栏选中项的文字颜色 */
+  --sidebar-active-color: #1890ff;
+  /* 侧边栏选中项的边框颜色 */
+  --sidebar-active-border: #1890ff;
 }
 
 .dark {
-  --nextra-primary-hue: 210deg;
-  --nextra-primary-saturation: 100%;
-  --nextra-primary-lightness: 60%;
+  /* 暗色模式下的侧边栏选中项背景色 */
+  --sidebar-active-bg: rgba(24, 144, 255, 0.2);
+  --sidebar-active-color: #1890ff;
+  --sidebar-active-border: #1890ff;
+}
+
+/* 侧边栏选中项样式 */
+aside nav a[aria-current="page"],
+aside nav a[data-active="true"] {
+  background-color: var(--sidebar-active-bg) !important;
+  color: var(--sidebar-active-color) !important;
+  font-weight: 500 !important;
+  border-left: 3px solid var(--sidebar-active-border) !important;
+  padding-left: calc(1rem - 3px) !important;
+}
+
+/* 侧边栏悬停效果 */
+aside nav a:hover:not([aria-current="page"]) {
+  background-color: rgba(0, 0, 0, 0.04);
+}
+
+.dark aside nav a:hover:not([aria-current="page"]) {
+  background-color: rgba(255, 255, 255, 0.08);
 }
