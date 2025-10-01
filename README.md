@@ -15,7 +15,7 @@
 
 </div>
 
-Wucai Code是命令行AI工具，从[**Gemini CLI**](https://github.com/google-gemini/gemini-cli)改进而来，专门针对[Qwen3-Coder]模型进行优化。它通过代码理解、智能编排，自动化任务和增强您的开发工作流。
+Wucai Code是命令行AI工具，从[**Gemini CLI**](https://github.com/google-gemini/gemini-cli)改进而来，专门针对Qwen3-Coder模型进行优化。它通过代码理解、智能编排，自动化任务和增强您的开发工作流。
 
 ## 免费选项可用
 
@@ -36,7 +36,7 @@ Wucai Code是命令行AI工具，从[**Gemini CLI**](https://github.com/google-g
 详细设置说明，请查看[授权](#授权)。
 
 > [!WARNING]
-> **令牌使用说明**：wucai code可能在每个周期内发出多个API调用，导致更高的令牌使用量（类似Claude Code）。
+> **令牌使用说明**：Wucai Code可能在每个周期内发出多个API调用，导致更高的令牌使用量（类似Claude Code）。
 
 ## 核心功能
 
@@ -70,7 +70,7 @@ brew install wucai-code
 ## 快速开始
 
 ```bash
-# 启动wucai code
+# 启动Wucai Code
 wucai
 
 # 首次使用建议：启用完全授权模式（避免每次操作都按Enter）
@@ -262,7 +262,7 @@ wucai
 - `/clear` - 清除对话历史
 - `/compact` - 压缩历史以节省令牌
 - `/stats` - 显示当前会话信息
-- `/exit`或`/quit` - 退出wucai code
+- `/exit`或`/quit` - 退出Wucai Code
 
 ### 键盘快捷键
 
