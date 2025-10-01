@@ -51,6 +51,9 @@ const LanguageLayout: FC<LayoutProps> = async ({ children, params }) => {
         defaultMenuCollapseLevel: 1,
         autoCollapse: true,
       }}
+      search={{
+        placeholder: "搜索文档...",
+      }}
       pageMap={sourcePageMap}
       nextThemes={{ defaultTheme: "light" }}
     >
