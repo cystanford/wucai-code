@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import type { FC, ReactNode } from "react";
+import { Head } from "nextra/components";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -20,6 +21,12 @@ type LayoutProps = Readonly<{
 const RootLayout: FC<LayoutProps> = ({ children }) => {
   return (
     <html suppressHydrationWarning lang="zh">
+      <Head
+        color={{
+          hue: { dark: 210, light: 210 },
+          saturation: { dark: 100, light: 100 },
+        }}
+      />
       <body>{children}</body>
     </html>
   );
