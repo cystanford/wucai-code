@@ -74,12 +74,12 @@ wucai
 ### 2. 选择身份验证方式
 - **Qwen OAuth**（推荐，免费）
 
-   详细请参考[Qwen OAuth认证](authentication.md#方法二qwen-oauth)
+   详细请参考[Qwen OAuth认证](/zh/getting-started/authentication#方法二qwen-oauth)
 
 
 - **API 密钥**（需要申请）
 
-   详细请参考[API密钥认证](authentication.md#方法一api密钥)
+   详细请参考[API密钥认证](/zh/getting-started/authentication#方法一api密钥)
 
 
 ### 3. 配置完成

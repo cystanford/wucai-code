@@ -109,12 +109,12 @@ function calculateSum(a, b) {
 首次使用时，您需要设置身份验证：
 
 ### 选择认证方式
-1. **Qwen OAuth** (详细请参考[Qwen OAuth认证](authentication.md#方法二qwen-oauth))
+1. **Qwen OAuth** (详细请参考[Qwen OAuth认证](/zh/getting-started/authentication#方法二qwen-oauth))
    - 免费使用
    - 每天2000次请求
    - 自动管理凭证
 
-2. **API密钥** (详细请参考[API密钥认证](authentication.md#方法一api密钥))
+2. **API密钥** (详细请参考[API密钥认证](/zh/getting-started/authentication#方法一api密钥))
    - 需要申请API密钥
    - 按使用量计费
 
