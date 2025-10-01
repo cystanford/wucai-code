@@ -16,7 +16,10 @@ Wucai Code提供了丰富的配置选项，让您可以根据个人喜好和工�
 
 ### 环境变量
 ```bash
-# 身份验证
+# 身份验证（推荐：简单配置）
+export DASHSCOPE_API_KEY="your_api_key"
+
+# 或者（高级配置）
 export OPENAI_API_KEY="your_api_key"
 export OPENAI_BASE_URL="your_base_url"
 export OPENAI_MODEL="your_model"

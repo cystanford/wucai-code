@@ -87,13 +87,22 @@ Wucai Code支持多种身份验证方式，您可以根据需要选择最适合�
 
 ### 中国大陆用户
 
-**选项1：阿里云百炼**
+**推荐：阿里云百炼（简单配置）**
 - 申请地址：[阿里云百炼控制台](https://bailian.console.aliyun.com/)
-- 配置示例：
+- 程序已内置默认配置，只需设置API Key：
+  ```bash
+  export DASHSCOPE_API_KEY="your_api_key_here"
+  ```
+  > 程序默认使用：
+  > - BASE_URL: `https://dashscope.aliyuncs.com/compatible-mode/v1`
+  > - MODEL: `qwen3-coder-plus`
+
+**高级配置（自定义模型）**
+如需使用其他模型或自定义配置，可使用以下方式：
   ```bash
   export OPENAI_API_KEY="your_api_key_here"
   export OPENAI_BASE_URL="https://dashscope.aliyuncs.com/compatible-mode/v1"
-  export OPENAI_MODEL="qwen3-coder-plus"
+  export OPENAI_MODEL="qwen-vl-plus"  # 支持视觉的模型
   ```
 
 **选项2：ModelScope（免费）**
@@ -129,7 +138,18 @@ Wucai Code支持多种身份验证方式，您可以根据需要选择最适合�
 
 ### 配置方法
 
-**方法1：环境变量**
+**方法1：简单配置（推荐）**
+仅使用DASHSCOPE_API_KEY，程序会自动使用默认配置：
+```bash
+# Windows (PowerShell)
+$env:DASHSCOPE_API_KEY="your_api_key_here"
+
+# macOS/Linux
+export DASHSCOPE_API_KEY="your_api_key_here"
+```
+
+**方法2：完整配置（高级用户）**
+自定义BASE_URL和MODEL：
 ```bash
 # Windows (PowerShell)
 $env:OPENAI_API_KEY="your_api_key_here"
@@ -142,14 +162,19 @@ export OPENAI_BASE_URL="your_base_url"
 export OPENAI_MODEL="your_model"
 ```
 
-**方法2：.env文件**
+**方法3：.env文件（推荐用于项目）**
 在项目根目录创建 `.env` 文件：
 ```env
+# 简单方式
+DASHSCOPE_API_KEY=your_api_key_here
+
+# 或高级方式
 OPENAI_API_KEY=your_api_key_here
 OPENAI_BASE_URL=your_base_url
 OPENAI_MODEL=your_model
 ```
-**方法3：用户配置文件**
+
+**方法4：用户配置文件**
 在 `~/.wucai/settings.json` 中配置：
 ```json
 {

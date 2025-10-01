@@ -88,7 +88,11 @@
    ```bash
    rm -rf ~/.wucai/auth
    ```
-2. 设置环境变量：
+2. 设置环境变量（推荐简单方式）：
+   ```bash
+   export DASHSCOPE_API_KEY="your_api_key"
+   ```
+   或高级配置：
    ```bash
    export OPENAI_API_KEY="your_api_key"
    export OPENAI_BASE_URL="your_base_url"
