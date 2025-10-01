@@ -366,5 +366,5 @@ description: 一个有用的代码审查员
 
 ## 下一步
 
+- [故障排除](/zh/reference/troubleshooting) - 解决常见问题
 - [自定义配置](/zh/advanced/customization) - 学习更多自定义选项
-- [MCP 服务器](/zh/advanced/mcp-servers) - 集成外部工具和服务

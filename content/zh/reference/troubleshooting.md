@@ -293,7 +293,8 @@ A: 使用更简洁的提示，定期使用 `/compact` 和 `/clear` 命令。
 ## 下一步
 
 如果问题仍未解决：
-- [查看配置参考](/zh/reference/configuration) - 了解详细配置选项
-- [查看命令参考](/zh/reference/commands) - 了解所有可用命令
-- [查看高级功能](/zh/advanced/customization) - 深入了解高级特性
-- 在GitHub Issues中寻求帮助
+- [配置参考](/zh/reference/configuration) - 了解详细配置选项
+- [命令参考](/zh/reference/commands) - 了解所有可用命令
+- [高级自定义](/zh/advanced/customization) - 深入了解高级特性
+- [Subagents](/zh/advanced/subagents) - 了解专业化AI助手
+- 在[GitHub Issues](https://github.com/cystanford/wucai-code/issues)中寻求帮助

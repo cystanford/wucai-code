@@ -390,4 +390,4 @@ AI会提供多种解决方案。
 
 - [代码审查和优化教程](/zh/tutorials/code-review) - 学习如何提升代码质量
 - [命令参考](/zh/reference/commands) - 了解更多可用命令
-- [高级配置](/zh/reference/configuration) - 自定义你的开发环境
+- [配置参考](/zh/reference/configuration) - 自定义你的开发环境
