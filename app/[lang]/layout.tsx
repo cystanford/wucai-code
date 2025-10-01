@@ -34,9 +34,10 @@ const LanguageLayout: FC<LayoutProps> = async ({ children, params }) => {
               className="inline-block align-middle mr-2"
               style={{ verticalAlign: "middle" }}
             />
-            <span className="text-[1.3rem] font-normal align-middle mr-1 max-md:hidden">
+            <span className="text-[1.3rem] font-normal align-middle max-md:hidden">
               Wucai
             </span>
+            {" "}
             <span className="text-[1.3rem] font-normal align-middle max-md:hidden">
               Code
             </span>
