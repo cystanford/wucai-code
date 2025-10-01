@@ -1,1 +1,14 @@
 @import "nextra-theme-docs/style.css";
+
+/* 确保 Logo 容器有足够宽度 */
+nav[aria-label="Global"] > div:first-child {
+  min-width: 200px !important;
+}
+
+/* Logo 和文字的容器不要换行 */
+nav[aria-label="Global"] > div:first-child > a {
+  display: inline-flex !important;
+  flex-wrap: nowrap !important;
+  align-items: center !important;
+  white-space: nowrap !important;
+}
