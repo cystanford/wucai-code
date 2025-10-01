@@ -3,30 +3,45 @@
 /* Wucai Code 自定义颜色变量 */
 :root {
   --wucai-blue: #1890ff;
-  --wucai-blue-light: #e6f7ff;
+  --wucai-blue-light: #e6f4ff;
+  --wucai-blue-lighter: #f0f8ff;
   --wucai-blue-hover: #40a9ff;
+  --wucai-blue-border: #91d5ff;
 }
 
 .dark {
-  --wucai-blue: #177ddc;
-  --wucai-blue-light: rgba(24, 144, 255, 0.1);
-  --wucai-blue-hover: #1890ff;
+  --wucai-blue: #1890ff;
+  --wucai-blue-light: rgba(24, 144, 255, 0.15);
+  --wucai-blue-lighter: rgba(24, 144, 255, 0.08);
+  --wucai-blue-hover: #40a9ff;
+  --wucai-blue-border: rgba(24, 144, 255, 0.3);
 }
 
-/* 侧边栏选中项样式 */
-nav a[aria-current="page"] {
+/* 侧边栏选中项样式 - 多种选择器确保覆盖 */
+nav a[aria-current="page"],
+nav a[data-active="true"],
+.nextra-sidebar a[aria-current="page"],
+.nextra-sidebar a[data-active="true"],
+aside nav a[aria-current="page"],
+aside nav a[data-active="true"] {
   background-color: var(--wucai-blue-light) !important;
   color: var(--wucai-blue) !important;
-  font-weight: 500;
+  font-weight: 500 !important;
+  border-left: 3px solid var(--wucai-blue) !important;
 }
 
 /* 侧边栏链接悬停效果 */
-nav a:hover:not([aria-current="page"]) {
-  background-color: rgba(0, 0, 0, 0.04);
+nav a:hover:not([aria-current="page"]),
+.nextra-sidebar a:hover:not([aria-current="page"]),
+aside nav a:hover:not([aria-current="page"]) {
+  background-color: var(--wucai-blue-lighter);
 }
 
-.dark nav a:hover:not([aria-current="page"]) {
-  background-color: rgba(255, 255, 255, 0.08);
+/* 暗色模式悬停 */
+.dark nav a:hover:not([aria-current="page"]),
+.dark .nextra-sidebar a:hover:not([aria-current="page"]),
+.dark aside nav a:hover:not([aria-current="page"]) {
+  background-color: rgba(255, 255, 255, 0.06);
 }
 
 .x\:lg\:-translate-y-1\/2,
