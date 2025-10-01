@@ -1,7 +1,4 @@
-@import "tailwindcss";
-@import "tw-animate-css";
 @import "nextra-theme-docs/style.css";
-@source "../**/*.{ts,tsx}";
 
 .x\:lg\:-translate-y-1\/2,
 .x\:lg\:after\:content-\[\"–\"\],
