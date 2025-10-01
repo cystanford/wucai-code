@@ -22,6 +22,11 @@ const LanguageLayout: FC<LayoutProps> = async ({ children, params }) => {
     <Navbar
       logo={
         <>
+          <img
+            src="/wucai-code/assets/images/wucai-logo.png"
+            alt="Wucai Code Logo"
+            style={{ width: '32px', height: '32px' }}
+          />
           <span
             className="ms-2 select-none font-extrabold flex items-center"
             title="Wucai Code: AI命令行工具"
@@ -49,7 +54,7 @@ const LanguageLayout: FC<LayoutProps> = async ({ children, params }) => {
       ]}
       sidebar={{
         defaultMenuCollapseLevel: 1,
-        autoCollapse: true,
+        autoCollapse: false,
       }}
       pageMap={sourcePageMap}
       nextThemes={{ defaultTheme: "light" }}

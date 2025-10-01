@@ -23,7 +23,7 @@ wucai
 
 初次启动时界面如下：
 
-![wucai-code](/assets/images/wucai_screen_normal.png)
+<img src="/wucai-code/assets/images/wucai_screen_normal.png" alt="wucai-code" />
 
 ## 界面介绍
 
@@ -111,7 +111,7 @@ AI会直接修改文件内容。
 
 ### 会话管理
 - `/clear` - 清除对话历史，重新开始
-- `/compress` - 压缩对话历史以节省令牌
+- `/compact` - 压缩对话历史以节省令牌
 - `/stats` - 查看当前会话的令牌使用情况
 
 ### 工具命令

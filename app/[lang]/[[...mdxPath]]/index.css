@@ -1,5 +1,34 @@
 @import "nextra-theme-docs/style.css";
 
+/* Wucai Code 自定义颜色变量 */
+:root {
+  --wucai-blue: #1890ff;
+  --wucai-blue-light: #e6f7ff;
+  --wucai-blue-hover: #40a9ff;
+}
+
+.dark {
+  --wucai-blue: #177ddc;
+  --wucai-blue-light: rgba(24, 144, 255, 0.1);
+  --wucai-blue-hover: #1890ff;
+}
+
+/* 侧边栏选中项样式 */
+nav a[aria-current="page"] {
+  background-color: var(--wucai-blue-light) !important;
+  color: var(--wucai-blue) !important;
+  font-weight: 500;
+}
+
+/* 侧边栏链接悬停效果 */
+nav a:hover:not([aria-current="page"]) {
+  background-color: rgba(0, 0, 0, 0.04);
+}
+
+.dark nav a:hover:not([aria-current="page"]) {
+  background-color: rgba(255, 255, 255, 0.08);
+}
+
 .x\:lg\:-translate-y-1\/2,
 .x\:lg\:after\:content-\[\"–\"\],
 .x\:lg\:border-b,
@@ -29,4 +58,3 @@
     }
   }
 }
-

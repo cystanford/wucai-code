@@ -48,7 +48,7 @@ wucai
 
 初次启动时界面如下：
 
-![wucai-code](/assets/images/wucai_firstlaunch.png)
+<img src="/wucai-code/assets/images/wucai_firstlaunch.png" alt="wucai-code" />
 
 
 ### 2. 选择身份验证方式

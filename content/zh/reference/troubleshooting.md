@@ -131,7 +131,7 @@ export DASHSCOPE_API_KEY="your_api_key"
 **解决方案：**
 1. 检查网络连接速度
 2. 使用 `/stats` 查看令牌使用情况
-3. 使用 `/compress` 压缩对话历史
+3. 使用 `/compact` 压缩对话历史
 4. 使用 `/clear` 清除对话历史重新开始
 5. 检查系统资源使用
 
@@ -172,7 +172,7 @@ export DASHSCOPE_API_KEY="your_api_key"
 ### 令牌使用过多
 
 **解决方案：**
-1. 使用 `/compress` 压缩历史
+1. 使用 `/compact` 压缩历史
 2. 使用 `/clear` 清除历史
 3. 使用更简洁的提示词
 4. 避免提交过大的代码块
@@ -252,7 +252,7 @@ wucai
 A: 默认限制为10MB，可在配置中调整。
 
 ### Q: 如何减少令牌使用？
-A: 使用更简洁的提示，定期使用 `/compress` 和 `/clear` 命令。
+A: 使用更简洁的提示，定期使用 `/compact` 和 `/clear` 命令。
 
 ## 诊断工具
 

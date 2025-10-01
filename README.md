@@ -99,7 +99,7 @@ wucai
 
 #### 会话命令
 
-- **`/compress`** - 压缩对话历史以在令牌限制内继续
+- **`/compact`** - 压缩对话历史以在令牌限制内继续
 - **`/clear`** - 清除所有对话历史并重新开始
 - **`/stats`** - 检查当前令牌使用和限制
 
@@ -260,7 +260,7 @@ wucai
 - `/approvals` - **推荐：** 设置批准模式，选择"完全授权"避免每次按Enter
 - `/help` - 显示可用命令
 - `/clear` - 清除对话历史
-- `/compress` - 压缩历史以节省令牌
+- `/compact` - 压缩历史以节省令牌
 - `/stats` - 显示当前会话信息
 - `/exit`或`/quit` - 退出wucai code
 
@@ -279,7 +279,7 @@ wucai
 
 ## 致谢
 
-本项目基于[Google Gemini CLI](https://github.com/google-gemini/gemini-cli)。我们感谢并赞赏Gemini CLI团队的出色工作。我们的主要贡献专注于解析器级别的适配，以更好地支持Qwen-Coder模型。
+本项目基于[Google Gemini CLI](https://github.com/google-gemini/gemini-cli)。我们感谢并赞赏Gemini CLI团队的出色工作，同时感谢Qwen-Coder的模型支持。我们的主要工作是给企业提供私有化部署解决方案，以及更好的vibe working体验。
 
 ## 许可证
 

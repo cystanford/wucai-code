@@ -24,29 +24,31 @@ Wucai Code支持两种身份验证方式，您可以根据需要选择最适合�
    ```
    初次启动时界面如下：
 
-   ![wucai-code](/assets/images/wucai_firstlaunch.png)
+   <img src="/wucai-code/assets/images/wucai_firstlaunch.png" alt="wucai-code" />
 
 2. **选择Qwen OAuth认证**
 
    按⬇️键选择**Qwen OAuth**后按Enter键，当选择Qwen OAuth方式认证时，在字符终端界面中会显示二维码如下，可以使用支付宝或微信扫码登录：
 
-   ![QR-Code](/assets/images/qwen_authentication_qr-code.png)
+   <img src="/wucai-code/assets/images/qwen_authentication_qr-code.png" alt="QR-Code" />
 
    同时，程序会自动打开浏览器进行认证，可以进行登录或注册。
-   ![Qwen-Login](/assets/images/qwen_login.png)
+
+   <img src="/wucai-code/assets/images/qwen_login.png" alt="Qwen-Login" />
 
    如百炼账号已经关联Google或GitHub账号，可以直接按确认登录:
 
    🌟注意：请先确认网络链接稳定后再访问
-   ![Qwen-Login-Github](/assets/images/qwen_login-github.png)
+
+   <img src="/wucai-code/assets/images/qwen_login-github.png" alt="Qwen-Login-Github" />
 
    确认授权Wucai Code访问
 
-   ![Auth-Successful](/assets/images/authentication_successful.png)
+   <img src="/wucai-code/assets/images/authentication_successful.png" alt="Auth-Successful" />
 
    认证完成后返回终端，Wucai Code即可正常使用
 
-   ![wucai-code-normal](/assets/images/wucai_screen_normal.png)
+   <img src="/wucai-code/assets/images/wucai_screen_normal.png" alt="wucai-code-normal" />
 
 ### 使用示例
 ```bash
@@ -71,17 +73,18 @@ Wucai Code支持两种身份验证方式，您可以根据需要选择最适合�
    ```
 
    初次启动时界面如下：
-   ![wucai-code](/assets/images/wucai_firstlaunch.png)
+
+   <img src="/wucai-code/assets/images/wucai_firstlaunch.png" alt="wucai-code" />
 
 2. **选择DASHSCOPE_API_KEY环境变量**
 
    按Enter键进行设置认证，在API Key的输入框中输入正确的阿里云百炼API Key信息：
 
-   ![dashscope-configuration](/assets/images/dashscope_configuration.png)
+   <img src="/wucai-code/assets/images/dashscope_configuration.png" alt="dashscope-configuration" />
 
    输入正确信息后，Wucai Code即可正常使用
 
-   ![wucai-code-normal](/assets/images/wucai_screen_normal.png)
+   <img src="/wucai-code/assets/images/wucai_screen_normal.png" alt="wucai-code-normal" />
 
 3. **设置永久环境变量（推荐）**
 
