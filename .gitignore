@@ -1,9 +1,9 @@
 # 依赖文件
 node_modules/
-package-lock.json
 yarn.lock
 
-# 构建输出
+# Next.js 构建输出
+.next/
 dist/
 build/
 bundle/
@@ -46,55 +46,8 @@ temp/
 .cache/
 .parcel-cache/
 
-# 开发配置文件
-eslint.config.js
-.eslintrc*
-prettier.config.js
-.prettierrc*
-tsconfig.json
-jest.config.js
-vitest.config.ts
-
-# 构建脚本和工具
-scripts/
-Makefile
-Dockerfile
-docker-compose.yml
-
-# 测试文件
-test/
-tests/
-__tests__/
-*.test.js
-*.test.ts
-*.test.tsx
-*.spec.js
-*.spec.ts
-*.spec.tsx
-
-# 集成测试
-integration-tests/
-
-# 源代码目录（因为这是文档仓库）
-packages/
-src/
-
-# 开发文档
-CLAUDE.md
-QWEN.md
-README.gemini.md
-ROADMAP.gemini.md
-
-# 安全相关
-SECURITY.md
-
-# 界面设计文件
-界面设计-*.png
-*.psd
-*.sketch
-
-# Vue组件（与项目不匹配）
-components/
-
-# 其他不需要的文件
-.yamllint.yml
+# 参考资料（不需要提交）
+qwen-code-docs-main/
+qwen-code-docs-main.zip
+content_bak/
+docs/

@@ -2,6 +2,11 @@
   "name": "@wucai/wucai-code",
   "version": "0.0.17",
   "description": "Wucai Code - AI命令行工具",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "postbuild": "pagefind --site out --output-path out/_pagefind"
+  },
   "engines": {
     "node": ">=20.0.0"
   },
@@ -21,5 +26,22 @@
   "homepage": "https://github.com/cystanford/wucai-code#readme",
   "bugs": {
     "url": "https://github.com/cystanford/wucai-code/issues"
+  },
+  "dependencies": {
+    "next": "^14.0.0",
+    "next-themes": "^0.4.6",
+    "nextra": "^4.3.0",
+    "nextra-theme-docs": "^4.3.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.10",
+    "@types/node": "^20.0.0",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "autoprefixer": "^10.4.21",
+    "pagefind": "^1.4.0",
+    "typescript": "^5.0.0"
   }
 }
