@@ -43,7 +43,10 @@ const LanguageLayout: FC<LayoutProps> = async ({ children, params }) => {
     <Layout
       navbar={navbar}
       footer={null}
-      docsRepositoryBase="https://github.com/cystanford/wucai-code/blob/main/docs"
+      docsRepositoryBase="https://github.com/cystanford/wucai-code/blob/main/content"
+      i18n={[
+        { locale: "zh", name: "中文" },
+      ]}
       sidebar={{
         defaultMenuCollapseLevel: 1,
         autoCollapse: true,
