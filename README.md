@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![wucai code截图](./docs/assets/wucai-code-screenshot.png)
+![wucai code截图](/assets/images/qwen-screenshot.png)
 
 [![npm version](https://img.shields.io/npm/v/@wucai/wucai-code.svg)](https://www.npmjs.com/package/@wucai/wucai-code)
 [![License](https://img.shields.io/github/license/cystanford/wucai-code.svg)](./LICENSE)
@@ -11,11 +11,11 @@
 
 **命令行AI工具（智能编排）**
 
-[安装](#安装) • [快速开始](#快速开始) • [功能特性](#核心功能) • [文档](./docs/) 
+[安装](#安装) • [快速开始](#快速开始) • [功能特性](#核心功能) • [文档](./content/zh/)
 
 </div>
 
-Wucai Code是命令行AI工具，从[**Gemini CLI**](https://github.com/google-gemini/gemini-cli)改进而来 ([详情](./README.gemini.md))，专门针对[Qwen3-Coder](https://github.com/QwenLM/Qwen3-Coder)模型进行优化。它通过代码理解、智能编排，自动化任务和增强您的开发工作流。
+Wucai Code是命令行AI工具，从[**Gemini CLI**](https://github.com/google-gemini/gemini-cli)改进而来，专门针对[Qwen3-Coder]模型进行优化。它通过代码理解、智能编排，自动化任务和增强您的开发工作流。
 
 ## 免费选项可用
 
@@ -31,8 +31,7 @@ Wucai Code是命令行AI工具，从[**Gemini CLI**](https://github.com/google-g
 
 ### 区域免费层级
 
-- **中国大陆**：ModelScope提供**每天2,000次免费API调用**
-- **国际**：OpenRouter在全球范围内提供**每天多达1,000次免费API调用**
+- **推荐**：使用Qwen OAuth，每天2,000次免费请求
 
 详细设置说明，请查看[授权](#授权)。
 
@@ -73,6 +72,10 @@ brew install wucai-code
 ```bash
 # 启动wucai code
 wucai
+
+# 首次使用建议：启用完全授权模式（避免每次操作都按Enter）
+> /approvals
+# 选择 "完全授权 (Full Access)"
 
 # 示例命令
 > 解释这个代码库结构
@@ -130,79 +133,31 @@ wucai
 - ✅ 个人用户**零成本**
 - ℹ️ **注意**：为保持服务质量可能会进行模型回退
 
-#### 2. OpenAI兼容API
+#### 2. API密钥方式
 
-为OpenAI或其他兼容提供商使用API密钥：
+使用阿里云百炼API密钥：
 
 **配置方法：**
 
 1. **环境变量**
 
    ```bash
-   export OPENAI_API_KEY="your_api_key_here"
-   export OPENAI_BASE_URL="your_api_endpoint"
-   export OPENAI_MODEL="your_model_choice"
+   export DASHSCOPE_API_KEY="your_api_key_here"
    ```
 
 2. **项目`.env`文件**
    在项目根目录创建`.env`文件：
    ```env
-   OPENAI_API_KEY=your_api_key_here
-   OPENAI_BASE_URL=your_api_endpoint
-   OPENAI_MODEL=your_model_choice
+   DASHSCOPE_API_KEY=your_api_key_here
    ```
 
-**API提供商选项**
+**申请API密钥**
 
-> ⚠️ **区域说明：**
->
-> - **中国大陆**：使用阿里云百炼或ModelScope
-> - **国际**：使用阿里云ModelStudio或OpenRouter
+- **阿里云百炼** ([申请API密钥](https://bailian.console.aliyun.com/))
 
-<details>
-<summary><b> 中国大陆用户</b></summary>
-
-**选项1：阿里云百炼** ([申请API密钥](https://bailian.console.aliyun.com/))
-
-```bash
-export OPENAI_API_KEY="your_api_key_here"
-export OPENAI_BASE_URL="https://dashscope.aliyuncs.com/compatible-mode/v1"
-export OPENAI_MODEL="qwen3-coder-plus"
-```
-
-**选项2：ModelScope（免费层级）** ([申请API密钥](https://modelscope.cn/docs/model-service/API-Inference/intro))
-
-- ✅ **每天2,000次免费API调用**
-- ⚠️ 连接您的阿里云账户以避免身份验证错误
-
-```bash
-export OPENAI_API_KEY="your_api_key_here"
-export OPENAI_BASE_URL="https://api-inference.modelscope.cn/v1"
-export OPENAI_MODEL="Qwen/Qwen3-Coder-480B-A35B-Instruct"
-```
-
-</details>
-
-<details>
-<summary><b> 国际用户</b></summary>
-
-**选项1：阿里云ModelStudio** ([申请API密钥](https://modelstudio.console.alibabacloud.com/))
-
-```bash
-export OPENAI_API_KEY="your_api_key_here"
-export OPENAI_BASE_URL="https://dashscope-intl.aliyuncs.com/compatible-mode/v1"
-export OPENAI_MODEL="qwen3-coder-plus"
-```
-
-**选项2：OpenRouter（提供免费层级）** ([申请API密钥](https://openrouter.ai/))
-
-```bash
-export OPENAI_API_KEY="your_api_key_here"
-export OPENAI_BASE_URL="https://openrouter.ai/api/v1"
-export OPENAI_MODEL="qwen/qwen3-coder:free"
-```
-
-</details>
+Wucai Code会自动使用默认配置：
+- BASE_URL: `https://dashscope.aliyuncs.com/compatible-mode/v1`
+- MODEL: `qwen3-coder-plus`
 
 ## 使用示例
 
@@ -264,10 +219,8 @@ wucai
 
 ```text
 > 核心业务逻辑组件有哪些？
-> 实施了什么安全机制？
 > 数据如何在系统中流动？
 > 使用了哪些主要设计模式？
-> 为这个模块生成依赖关系图
 ```
 
 ### 代码重构和优化
@@ -304,6 +257,7 @@ wucai
 
 ### 会话命令
 
+- `/approvals` - **推荐：** 设置批准模式，选择"完全授权"避免每次按Enter
 - `/help` - 显示可用命令
 - `/clear` - 清除对话历史
 - `/compress` - 压缩历史以节省令牌
@@ -317,11 +271,11 @@ wucai
 - `上/下` - 浏览命令历史
 ## 身份验证
 
-有关详细的身份验证设置，请参阅[身份验证指南](./docs/cli/authentication.md)。
+有关详细的身份验证设置，请参阅[身份验证指南](./content/zh/getting-started/authentication.md)。
 
 ## 故障排除
 
-如果您遇到问题，请查看[故障排除指南](docs/troubleshooting.md)。
+如果您遇到问题，请查看[故障排除指南](./content/zh/reference/troubleshooting.md)。
 
 ## 致谢
 

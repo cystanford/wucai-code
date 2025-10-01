@@ -1,19 +1,11 @@
-# 安装指南
-
-本指南将帮助您在系统上安装Wucai Code。
-
 ## 系统要求
 
-### 最低要求
-- **Node.js**: 版本 20.0.0 或更高
-- **操作系统**: Windows 10+, macOS 10.15+, 或 Linux
-- **内存**: 至少 4GB RAM
-- **存储空间**: 至少 500MB 可用空间
+### 环境配置
+- **Node.js**: 推荐最新的Node.js版本（>= 20.0.0）
+下载链接 https://nodejs.org/zh-cn/download
 
-### 推荐配置
-- **Node.js**: 版本 20.x 或 22.x
-- **内存**: 8GB 或更多
-- **网络**: 稳定的互联网连接（用于API调用）
+- **操作系统**: Windows 10+, macOS 10.15+, 或 Linux
+
 
 ## 安装步骤
 
@@ -47,18 +39,6 @@ sudo npm install -g @wucai/wucai-code@latest
 brew install wucai-code
 ```
 
-### 方法三：使用 yarn
-
-```bash
-yarn global add @wucai/wucai-code@latest
-```
-
-### 方法四：使用 pnpm
-
-```bash
-pnpm add -g @wucai/wucai-code@latest
-```
-
 ## 安装后设置
 
 ### 1. 首次运行
@@ -68,18 +48,18 @@ wucai
 
 初次启动时界面如下：
 
-![wucai-code](../assets/images/wucai_firstlaunch.png)
+![wucai-code](/assets/images/wucai_firstlaunch.png)
 
 
 ### 2. 选择身份验证方式
 - **Qwen OAuth**（推荐，免费）
 
-   详细请参考[Qwen OAuth认证](/zh/getting-started/authentication#方法二qwen-oauth)
+   详细请参考[Qwen OAuth认证](/zh/getting-started/authentication#方法一qwen-oauth推荐)
 
 
-- **API 密钥**（需要申请）
+- **DASHSCOPE_API_KEY**（需要申请）
 
-   详细请参考[API密钥认证](/zh/getting-started/authentication#方法一api密钥)
+   详细请参考[API密钥认证](/zh/getting-started/authentication#方法二dashscope_api_key)
 
 
 ### 3. 配置完成
@@ -130,5 +110,5 @@ npm update -g @wucai/wucai-code@latest
 ## 下一步
 
 安装完成后，请继续阅读：
-- [首次使用指南](./first-steps.md)
-- [身份验证设置](./authentication.md)
+- [身份验证设置](/zh/getting-started/authentication) - 配置API访问
+- [第一次使用教程](/zh/getting-started/first-tutorial) - 完整的入门教程

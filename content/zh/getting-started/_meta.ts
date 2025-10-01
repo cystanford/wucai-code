@@ -1,5 +1,5 @@
 export default {
   installation: "安装指南",
-  "first-steps": "首次使用",
-  authentication: "身份验证设置",
+  authentication: "身份验证",
+  "first-tutorial": "第一次使用教程"
 };

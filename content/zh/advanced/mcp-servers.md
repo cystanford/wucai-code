@@ -364,7 +364,6 @@ class APIMCPServer {
 
 ## 下一步
 
-- [学习检查点功能](./checkpointing.md)
-- [查看自定义配置](./customization.md)
-- [探索实际示例](/zh/examples/automation)
-- [学习故障排除](/zh/troubleshooting/common-issues)
+- [检查点功能](/zh/advanced/checkpointing) - 学习会话状态管理
+- [自定义配置](/zh/advanced/customization) - 查看高级自定义选项
+- [故障排除](/zh/reference/troubleshooting) - 解决常见问题

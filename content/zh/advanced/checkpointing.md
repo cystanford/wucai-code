@@ -106,7 +106,6 @@
 
 ## 下一步
 
-- [学习自定义配置](./customization.md)
-- [了解MCP服务器](./mcp-servers.md)
-- [查看实际示例](/zh/examples/automation)
-- [学习故障排除](/zh/troubleshooting/common-issues)
+- [自定义配置](/zh/advanced/customization) - 学习高级自定义选项
+- [MCP服务器](/zh/advanced/mcp-servers) - 了解MCP服务器集成
+- [故障排除](/zh/reference/troubleshooting) - 解决常见问题
