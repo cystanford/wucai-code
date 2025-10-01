@@ -23,27 +23,27 @@ const LanguageLayout: FC<LayoutProps> = async ({ children, params }) => {
       logo={
         <>
           <span
-            className="ms-2 select-none font-extrabold flex items-center"
-            title="Wucai Code: AI命令行工具"
+            className='ms-2 select-none font-extrabold flex items-center'
+            title='Wucai Code: AI命令行工具'
           >
             <img
-              src="/wucai-code/assets/images/wucai-logo.png"
-              alt="Wucai Code"
+              src='/wucai-code/assets/images/wucai-logo.png'
+              alt='Wucai Code'
               width={32}
               height={32}
-              className="inline-block align-middle mr-2"
+              className='inline-block align-middle mr-2 '
               style={{ verticalAlign: "middle" }}
             />
-            <span className="text-[1.3rem] font-normal align-middle mr-1 max-md:hidden">
+            <span className='text-[1.3rem]  font-normal align-middle mr-1 max-md:hidden'>
               Wucai
             </span>
-            <span className="text-[1.3rem] font-normal align-middle max-md:hidden">
+            <span className='text-[1.3rem] font-normal align-middle max-md:hidden'>
               Code
             </span>
           </span>
         </>
       }
-      projectLink="https://github.com/cystanford/wucai-code"
+      projectLink='https://github.com/cystanford/wucai-code'
     />
   );
 

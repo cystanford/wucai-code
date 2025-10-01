@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import type { FC, ReactNode } from "react";
-import "nextra-theme-docs/style.css";
+import "./globals.css";
 
 export const metadata: Metadata = {
   description: "Wucai Code - AI命令行工具文档",

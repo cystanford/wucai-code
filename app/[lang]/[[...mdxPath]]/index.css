@@ -1,16 +1,3 @@
-@import "nextra-theme-docs/style.css";
-
-/* Wucai Code 自定义主题颜色 */
-:root {
-  --nextra-primary-hue: 210deg;
-  --nextra-primary-saturation: 100%;
-}
-
-.dark {
-  --nextra-primary-hue: 210deg;
-  --nextra-primary-saturation: 100%;
-}
-
 .x\:lg\:-translate-y-1\/2,
 .x\:lg\:after\:content-\[\"–\"\],
 .x\:lg\:border-b,
