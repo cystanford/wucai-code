@@ -9,7 +9,7 @@
 [![Node.js Version](https://img.shields.io/badge/node-%3E%3D20.0.0-brightgreen.svg)](https://nodejs.org/)
 [![Downloads](https://img.shields.io/npm/dm/@wucai/wucai-code.svg)](https://www.npmjs.com/package/@wucai/wucai-code)
 
-**命令行AI工具（智能编排）**
+**AI命令行工具（Vibe Working）**
 
 [安装](#安装) • [快速开始](#快速开始) • [功能特性](#核心功能) • [文档](./content/zh/)
 
@@ -25,7 +25,7 @@ Wucai Code是命令行AI工具，从[**Gemini CLI**](https://github.com/google-g
 
 - **每天2,000次请求**，无令牌限制
 - **每分钟60次请求**速率限制
-- 简单运行`qwen`并使用您的qwen.ai账户进行身份验证
+- 使用您的qwen.ai账户进行身份验证
 - 自动凭证管理和刷新
 - 如果您已使用OpenAI兼容模式初始化，使用`/auth`命令切换到Qwen OAuth
 

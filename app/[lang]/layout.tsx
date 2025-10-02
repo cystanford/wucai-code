@@ -50,7 +50,7 @@ const LanguageLayout: FC<LayoutProps> = async ({ children, params }) => {
         { locale: "zh", name: "中文" },
       ]}
       sidebar={{
-        defaultMenuCollapseLevel: 1,
+        defaultMenuCollapseLevel: Infinity,
         autoCollapse: false,
       }}
       pageMap={sourcePageMap}
