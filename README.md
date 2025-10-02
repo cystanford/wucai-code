@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![wucai code截图](/assets/images/wucai-screenshot.png)
+![wucai code截图](/public/assets/images/wucai-screenshot.png)
 
 [![npm version](https://img.shields.io/npm/v/@wucai/wucai-code.svg)](https://www.npmjs.com/package/@wucai/wucai-code)
 [![License](https://img.shields.io/github/license/cystanford/wucai-code.svg)](./LICENSE)
