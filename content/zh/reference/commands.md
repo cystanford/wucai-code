@@ -127,7 +127,7 @@ Wucai Code支持保存重要信息到记忆中，便于后续会话使用：
 ```
 
 ### `/mcp` - MCP服务器管理
-管理模型上下文协议（MCP）服务器，详见[MCP服务器文档](/zh/advanced/mcp-servers)。
+管理模型上下文协议（MCP）服务器，详见[MCP服务器文档](/content/zh/advanced/mcp-servers)。
 
 ## 键盘快捷键
 
@@ -218,13 +218,13 @@ Wucai Code支持保存重要信息到记忆中，便于后续会话使用：
 ### 配置问题
 1. 使用 `/settings` 查看当前配置
 2. 使用 `/init` 重新初始化配置
-3. 查看[故障排除文档](/zh/reference/troubleshooting)
+3. 查看[故障排除文档](/content/zh/reference/troubleshooting)
 
 ## 下一步
 
 掌握了命令使用后，您可以：
 
-- [配置参考](/zh/reference/configuration) - 了解详细配置选项
-- [AI辅助编写代码项目](/zh/tutorials/code-generation) - 学习如何创建项目
-- [代码审查和优化](/zh/tutorials/code-review) - 学习代码优化技巧
-- [高级功能](/zh/advanced/customization) - 探索高级自定义
+- [配置参考](/content/zh/reference/configuration) - 了解详细配置选项
+- [AI辅助编写代码项目](/content/zh/tutorials/code-generation) - 学习如何创建项目
+- [代码审查和优化](/content/zh/tutorials/code-review) - 学习代码优化技巧
+- [高级功能](/content/zh/advanced/customization) - 探索高级自定义

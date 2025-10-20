@@ -471,6 +471,6 @@ class DatabaseIntegration {
 
 ## 下一步
 
-- [MCP服务器](/zh/advanced/mcp-servers) - 了解MCP服务器集成
-- [检查点功能](/zh/advanced/checkpointing) - 学习会话状态管理
-- [Subagents](/zh/advanced/subagents) - 了解专业化AI助手
+- [MCP服务器](/content/zh/advanced/mcp-servers) - 了解MCP服务器集成
+- [检查点功能](/content/zh/advanced/checkpointing) - 学习会话状态管理
+- [Subagents](/content/zh/advanced/subagents) - 了解专业化AI助手

@@ -588,6 +588,6 @@ AI: [创建详细的对比报告]
 
 现在你已经学会了如何进行代码审查和优化，可以继续：
 
-- [命令参考](/zh/reference/commands) - 掌握所有可用命令
-- [配置参考](/zh/reference/configuration) - 优化工作流程
-- [高级自定义](/zh/advanced/customization) - 深入学习高级特性
+- [命令参考](/content/zh/reference/commands) - 掌握所有可用命令
+- [配置参考](/content/zh/reference/configuration) - 优化工作流程
+- [高级自定义](/content/zh/advanced/customization) - 深入学习高级特性

@@ -364,6 +364,6 @@ class APIMCPServer {
 
 ## 下一步
 
-- [检查点功能](/zh/advanced/checkpointing) - 学习会话状态管理
-- [Subagents](/zh/advanced/subagents) - 了解专业化AI助手
-- [故障排除](/zh/reference/troubleshooting) - 解决常见问题
+- [检查点功能](/content/zh/advanced/checkpointing) - 学习会话状态管理
+- [Subagents](/content/zh/advanced/subagents) - 了解专业化AI助手
+- [故障排除](/content/zh/reference/troubleshooting) - 解决常见问题
