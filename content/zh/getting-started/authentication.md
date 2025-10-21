@@ -23,32 +23,31 @@ Wucai Code支持两种身份验证方式，您可以根据需要选择最适合�
    wucai
    ```
    初次启动时界面如下：
+   ![wucai-code](/content/zh/assets/images/wucai_firstlaunch.png)
 
-   <img src="/wucai-code/assets/images/wucai_firstlaunch.png" alt="wucai-code" />
 
 2. **选择Qwen OAuth认证**
 
    按⬇️键选择**Qwen OAuth**后按Enter键，当选择Qwen OAuth方式认证时，在字符终端界面中会显示二维码如下，可以使用支付宝或微信扫码登录：
 
-   <img src="/wucai-code/assets/images/qwen_authentication_qr-code.png" alt="QR-Code" />
+   ![QR-Code](/content/zh/assets/images/qwen_authentication_qr-code.png)
+
 
    同时，程序会自动打开浏览器进行认证，可以进行登录或注册。
-
-   <img src="/wucai-code/assets/images/qwen_login.png" alt="Qwen-Login" />
+   ![Qwen-Login](/content/zh/assets/images/qwen_login.png)
 
    如百炼账号已经关联Google或GitHub账号，可以直接按确认登录:
 
-   🌟注意：请先确认网络链接稳定后再访问
+   🌟注意：请先确认网络链接稳定后再访问 
 
-   <img src="/wucai-code/assets/images/qwen_login-github.png" alt="Qwen-Login-Github" />
+   ![Qwen-Login-Github](/content/zh/assets/images/qwen_login-github.png)
 
    确认授权Wucai Code访问
 
-   <img src="/wucai-code/assets/images/authentication_successful.png" alt="Auth-Successful" />
+   ![Auth-Successful](/content/zh/assets/images/authentication_successful.png)
 
    认证完成后返回终端，Wucai Code即可正常使用
-
-   <img src="/wucai-code/assets/images/wucai_screen_normal.png" alt="wucai-code-normal" />
+   ![wucai-code-normal](/content/zh/assets/images/wucai_screen_normal.png)
 
 ### 使用示例
 ```bash
@@ -73,18 +72,15 @@ Wucai Code支持两种身份验证方式，您可以根据需要选择最适合�
    ```
 
    初次启动时界面如下：
-
-   <img src="/wucai-code/assets/images/wucai_firstlaunch.png" alt="wucai-code" />
+   ![wucai-code](/content/zh/assets/images/wucai_firstlaunch.png)
 
 2. **选择DASHSCOPE_API_KEY环境变量**
 
    按Enter键进行设置认证，在API Key的输入框中输入正确的阿里云百炼API Key信息：
-
-   <img src="/wucai-code/assets/images/dashscope_configuration.png" alt="dashscope-configuration" />
+   ![dashscope-configuration](/content/zh/assets/images/dashscope_configuration.png)
 
    输入正确信息后，Wucai Code即可正常使用
-
-   <img src="/wucai-code/assets/images/wucai_screen_normal.png" alt="wucai-code-normal" />
+   ![wucai-code-normal](/content/zh/assets/images/wucai_screen_normal.png)
 
 3. **设置永久环境变量（推荐）**
 
@@ -113,6 +109,6 @@ A: 邮箱注册后，Qwen会发送一封邮件，激活后即完成认证
 
 认证设置完成后，您可以：
 
-- [第一次使用教程](/zh/getting-started/first-tutorial) - 完整的入门教程
-- [AI辅助编写代码项目](/zh/tutorials/code-generation) - 学习如何用AI创建完整项目
-- [命令参考](/zh/reference/commands) - 了解所有可用命令
+- [第一次使用教程](/content/zh/getting-started/first-tutorial) - 完整的入门教程
+- [AI辅助编写代码项目](/content/zh/tutorials/code-generation) - 学习如何用AI创建完整项目
+- [命令参考](/content/zh/reference/commands) - 了解所有可用命令

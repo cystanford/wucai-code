@@ -48,18 +48,18 @@ wucai
 
 初次启动时界面如下：
 
-<img src="/wucai-code/assets/images/wucai_firstlaunch.png" alt="wucai-code" />
+ ![wucai-code](/content/zh/assets/images/wucai_firstlaunch.png)
 
 
 ### 2. 选择身份验证方式
 - **Qwen OAuth**（推荐，免费）
 
-   详细请参考[Qwen OAuth认证](/zh/getting-started/authentication#方法一qwen-oauth推荐)
+   详细请参考[Qwen OAuth认证](/content/zh/getting-started/authentication#方法一qwen-oauth推荐)
 
 
 - **DASHSCOPE_API_KEY**（需要申请）
 
-   详细请参考[API密钥认证](/zh/getting-started/authentication#方法二dashscope_api_key)
+   详细请参考[API密钥认证](/content/zh/getting-started/authentication#方法二dashscope_api_key)
 
 
 ### 3. 配置完成
@@ -110,5 +110,5 @@ npm update -g @wucai/wucai-code@latest
 ## 下一步
 
 安装完成后，请继续阅读：
-- [身份验证设置](/zh/getting-started/authentication) - 配置API访问
-- [第一次使用教程](/zh/getting-started/first-tutorial) - 完整的入门教程
+- [身份验证设置](/content/zh/getting-started/authentication) - 配置API访问
+- [第一次使用教程](/content/zh/getting-started/first-tutorial) - 完整的入门教程

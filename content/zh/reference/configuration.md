@@ -349,6 +349,6 @@ wucai --import-config config.json
 
 配置完成后，您可以：
 
-- [高级自定义](/zh/advanced/customization) - 探索高级自定义选项
-- [AI辅助编写代码项目](/zh/tutorials/code-generation) - 开始实践项目
-- [故障排除](/zh/reference/troubleshooting) - 解决常见问题
+- [高级自定义](/content/zh/advanced/customization) - 探索高级自定义选项
+- [AI辅助编写代码项目](/content/zh/tutorials/code-generation) - 开始实践项目
+- [故障排除](/content/zh/reference/troubleshooting) - 解决常见问题

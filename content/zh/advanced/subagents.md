@@ -366,5 +366,5 @@ description: 一个有用的代码审查员
 
 ## 下一步
 
-- [故障排除](/zh/reference/troubleshooting) - 解决常见问题
-- [自定义配置](/zh/advanced/customization) - 学习更多自定义选项
+- [故障排除](/content/zh/reference/troubleshooting) - 解决常见问题
+- [自定义配置](/content/zh/advanced/customization) - 学习更多自定义选项

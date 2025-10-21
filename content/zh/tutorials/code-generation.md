@@ -388,6 +388,6 @@ AI会提供多种解决方案。
 
 现在你已经学会了如何用AI辅助创建完整项目，可以继续学习：
 
-- [代码审查和优化教程](/zh/tutorials/code-review) - 学习如何提升代码质量
-- [命令参考](/zh/reference/commands) - 了解更多可用命令
-- [配置参考](/zh/reference/configuration) - 自定义你的开发环境
+- [代码审查和优化教程](/content/zh/tutorials/code-review) - 学习如何提升代码质量
+- [命令参考](/content/zh/reference/commands) - 了解更多可用命令
+- [配置参考](/content/zh/reference/configuration) - 自定义你的开发环境

@@ -23,7 +23,8 @@ wucai
 
 初次启动时界面如下：
 
-<img src="/wucai-code/assets/images/wucai_screen_normal.png" alt="wucai-code" />
+ ![wucai-code](/content/zh/assets/images/wucai_firstlaunch.png)
+
 
 ## 界面介绍
 
@@ -171,13 +172,13 @@ AI会直接修改文件内容。
 
 现在您已经掌握了基本操作，可以继续学习：
 
-- [查看完整的命令参考](/zh/reference/commands) - 了解所有可用命令
-- [配置Wucai Code](/zh/reference/configuration) - 自定义您的使用体验
-- [AI辅助编写代码项目](/zh/tutorials/code-generation) - 学习如何用AI创建完整项目
-- [代码审查和优化](/zh/tutorials/code-review) - 学习如何用AI提升代码质量
+- [查看完整的命令参考](/content/zh/reference/commands) - 了解所有可用命令
+- [配置Wucai Code](/content/zh/reference/configuration) - 自定义您的使用体验
+- [AI辅助编写代码项目](/content/zh/tutorials/code-generation) - 学习如何用AI创建完整项目
+- [代码审查和优化](/content/zh/tutorials/code-review) - 学习如何用AI提升代码质量
 
 ## 遇到问题？
 
 - 输入 `/help` 查看帮助信息
-- 查看[故障排除指南](/zh/reference/troubleshooting)
+- 查看[故障排除指南](/content/zh/reference/troubleshooting)
 - 在[GitHub Issues](https://github.com/cystanford/wucai-code/issues)中提问
